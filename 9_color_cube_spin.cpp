@@ -1,9 +1,4 @@
-#ifdef __APPLE__
-#define GL_SILENCE_DEPRECATION
-#include <GLUT/glut.h>
-#else
 #include <GL/glut.h>
-#endif
 
 float vertices[8][3] = {
 	-1, -1, -1,

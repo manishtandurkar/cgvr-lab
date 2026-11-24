@@ -1,10 +1,5 @@
 #include<cmath>
-#ifdef __APPLE__
-#define GL_SILENCE_DEPRECATION
-#include <GLUT/glut.h>
-#else
 #include <GL/glut.h>
-#endif
 
 void drawCircle(int xc, int yc, int r){
 	glColor3f(1, 0, 0);
