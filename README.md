@@ -58,15 +58,15 @@ Note: `all.cpp` contains every program together (12 `main()` functions), so it i
 |---|------|-------|
 | 1 | `1_bresenham_line.cpp` | Choose 1 (keyboard) or 2 (mouse). Keyboard: number of lines, then `x1 y1 x2 y2` for each. Mouse: click two points per line. |
 | 2 | `2_bresenham_circle.cpp` | Choose 1 (keyboard) or 2 (mouse). Keyboard: `xc`, `yc`, `r`. Mouse: click the centre, then a point on the circle. |
-| 3 | `3_scanline_areafill.cpp` | Number of sides, then `x y` for each vertex (e.g. 4 sides: `100 100  400 150  350 400  150 350`). |
-| 4 | `4_cohen_sutherland_line.cpp` | None |
-| 5 | `5_liang_barsky_line.cpp` | None |
-| 6 | `6_sutherland_hodgeman_polygon.cpp` | None |
-| 7 | `7_house_rotate_reflect.cpp` | Choose 1 (rotation): enter `t xr yr` (angle in degrees, pivot point). Choose 2 (reflection): enter `m c` (line y = mx + c). |
-| 8 | `8_rectangle_spin.cpp` | None (animation) |
-| 9 | `9_color_cube_spin.cpp` | None (animation) |
-| 10 | `10_cylinder_parallelepiped.cpp` | None |
-| 11 | `11_sphere.cpp` | None |
-| 12 | `12_sierpinski_gasket.cpp` | Number of subdivisions (e.g. `3`). |
+| 3 | `3_rectangle_spin.cpp` | None (animation) |
+| 4 | `4_cylinder_parallelepiped.cpp` | None |
+| 5 | `5_sierpinski_gasket.cpp` | Number of subdivisions (e.g. `3`). |
+| 6 | `6_sphere.cpp` | None |
+| 7 | `7_scanline_areafill.cpp` | Number of sides, then `x y` for each vertex (e.g. 4 sides: `100 100  400 150  350 400  150 350`). |
+| 8 | `8_cohen_sutherland_line.cpp` | None |
+| 9 | `9_liang_barsky_line.cpp` | None |
+| 10 | `10_sutherland_hodgeman_polygon.cpp` | None |
+| 11 | `11_house_rotate_reflect.cpp` | Choose 1 (rotation): enter `t xr yr` (angle in degrees, pivot point). Choose 2 (reflection): enter `m c` (line y = mx + c). |
+| 12 | `12_color_cube_spin.cpp` | None (animation) |
 
 Close the output window to exit the program.
